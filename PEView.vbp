@@ -1,0 +1,49 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\WINNT\System32\stdole2.tlb#OLE Automation
+Object={F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0; COMDLG32.OCX
+Object={CDE57A40-8B86-11D0-B3C6-00A0C90AEA82}#1.0#0; MSDATGRD.OCX
+Reference=*\G{00000200-0000-0010-8000-00AA006D2EA4}#2.0#0#..\..\..\Program Files\Common Files\system\ado\msado20.tlb#Microsoft ActiveX Data Objects 2.0 Library
+Form=frmMain.frm
+Class=clsFileMapping; clsFileMapping.cls
+Reference=*\G{7C0FFAB0-CD84-11D0-949A-00A0C91110ED}#1.0#0#..\..\..\WINNT\System32\msdatsrc.tlb#Microsoft Data Source Interfaces
+IconForm="frmMain"
+Startup="frmMain"
+HelpFile=""
+Title="PEView"
+ExeName32="Check PE.exe"
+Command32=""
+Name="CheckPE"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=6
+MinorVer=6
+RevisionVer=6
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionComments="File Mapping Class Demo (Checks the Portable Exectable Format using Visual Basic)"
+VersionCompanyName="EFX"
+VersionLegalCopyright="Copyright 2001 by Chris Vega [gwapo@models.com]"
+VersionLegalTrademarks="No Rights Reserved, Use Without Permission"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=-1
+CodeViewDebugInfo=0
+NoAliasing=-1
+BoundsCheck=-1
+OverflowCheck=-1
+FlPointCheck=-1
+FDIVCheck=-1
+UnroundedFP=-1
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+RemoveUnusedControlInfo=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+DeleteClass1=clsFISHDATA
+DeleteClass2=frmFISHDATA
